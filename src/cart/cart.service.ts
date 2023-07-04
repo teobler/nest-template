@@ -1,7 +1,7 @@
 import { Injectable } from "@nestjs/common";
 import { OrderItemDto } from "src/cart/dto/add-item.dto";
 import { Param } from "@nestjs/common/decorators/http/route-params.decorator";
-import { Clients } from "src/clients";
+import { Clients } from "src/http-clients";
 
 @Injectable()
 export class CartService {

@@ -3,7 +3,7 @@ import { JanusClient } from "@vtex/api";
 
 import { checkoutCookieFormat, ownershipCookieFormat } from "../utils/cookie";
 import { statusToError } from "../utils";
-import { CustomIOContext } from "src/clients/type";
+import { CustomIOContext } from "src/http-clients/type";
 
 const BASE_URL = "https://vtexsgdemostore.vtexcommercestable.com.br";
 

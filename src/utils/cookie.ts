@@ -1,7 +1,7 @@
 import { parse } from "set-cookie-parser";
 import type { SetOption } from "cookies";
 import { RecorderState, ServiceContext } from "@vtex/api";
-import { Clients } from "src/clients";
+import { Clients } from "src/http-clients";
 
 interface State extends RecorderState {
   code: number;
