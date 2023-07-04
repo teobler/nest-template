@@ -370,7 +370,3 @@ interface OrderItem {
   index: number;
   price: number;
 }
-
-interface OrderItems {
-  orderItems: OrderItem[];
-}
